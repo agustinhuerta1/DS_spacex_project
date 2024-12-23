@@ -1,14 +1,10 @@
-name: test4
+name: Pytorch_project
 channels:
  - defaults
  - conda-forge
 dependencies:
  - python=3.8
- - request
- - numpy
+ - pytorch
+ - requests
  - pandas
- - scipy
- - matplotlib
- - seaborn
- - scikit-learn
  - ipykernel
